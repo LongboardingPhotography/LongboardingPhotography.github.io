@@ -72,5 +72,5 @@ body {
 
 .photos {
   position: center;
-  width: 50%
+  max-width: 500px;
 }
