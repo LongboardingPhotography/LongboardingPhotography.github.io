@@ -73,6 +73,9 @@ body {
 .photos {
   position: center;
 }
-.img1 {
-  max-width: 500px;
+
+.photos img {
+  display: block;
+  max-width: 300px;
+  margin: auto;
 }
