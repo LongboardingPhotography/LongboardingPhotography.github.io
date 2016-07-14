@@ -3,7 +3,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
     <link href='stylephotos.css' rel='stylesheet'>
-
+    <script type="text/javascript" src="SlidingThingy.js"></script>
     
   </head>
   <body>
@@ -34,13 +34,19 @@
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../app.js"></script>
-    <div class="photos">
-<div class="img">
-  <a target="_blank" href="ttp://i.imgur.com/tBAVRi3.jpg">
-    <img src="http://i.imgur.com/tBAVRi3.jpg" width="300">
-  </a>
-  <div class="desc">Submitted by <a href="https://www.silverfishlongboarding.com/forum/members/tahitus.html">Tahitus</a></div>
-</div>
+          <div class="container">
+      <div class="slider_wrapper">
+        <ul id="image_slider">
+          <li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
+          <li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
+          <li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
+          <li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
+          <li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
+          <li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
+        </ul>         
+        <span class="nvgt" id="prev"></span>
+        <span class="nvgt" id="next"></span>
+      </div>
     </div>
   </body>
 </html>

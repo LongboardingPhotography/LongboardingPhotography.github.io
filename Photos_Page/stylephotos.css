@@ -53,7 +53,7 @@ body {
 }
 
 .icon-menu {
-  color: black;
+  color: white;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -69,23 +69,52 @@ body {
   margin-right: 5px;
 }
 
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+.container{
+  width:800px;
+  height:400px;
+  padding:20px;
+  border:1px solid gray;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background: black;  
 }
-
-div.img:hover {
-    border: 1px solid #777;
+.slider_wrapper{
+  overflow: hidden;
+  position:relative;
+  height:280px;
+  top:auto;
 }
+#image_slider{
 
-div.img img {
-    width: 100%;
-    height: auto;
+  position: relative;
+  height: auto;
+  list-style: none;
+  overflow: hidden;
+  float: left;
+  /*Chrom default padding for ul is 40px */
+  padding:0px;
+  margin:0px;
 }
-
-div.desc {
-    padding: 15px;
-    text-align: center;
+#image_slider li{
+  position: relative;
+  float: left;
+}
+.nvgt{
+  position:absolute;
+  top: 120px;
+  height: 50px;
+  width: 30px;
+  opacity: 0.6;
+}
+.nvgt:hover{
+  opacity: 0.9;
+}
+#prev{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+  left: 0px;
+}
+#next{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+  right: 0px;
 }
