@@ -63,10 +63,12 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   position: fixed;
+  z-index: 1;
 }
 
 .icon-menu i {
   margin-right: 5px;
+  z-index: 1;
 }
 
 .container{
