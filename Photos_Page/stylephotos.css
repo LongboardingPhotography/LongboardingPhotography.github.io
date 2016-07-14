@@ -84,7 +84,7 @@ body {
 .slider_wrapper{
   overflow: hidden;
   position:relative;
-  height:280px;
+  height: 50%;
   top:auto;
 }
 #image_slider{
