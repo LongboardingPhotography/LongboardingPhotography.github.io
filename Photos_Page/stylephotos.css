@@ -69,27 +69,23 @@ body {
   margin-right: 5px;
 }
 
-div.img1 {
+div.img {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
-    right: 30px;
 }
 
-div.img1:hover {
+div.img:hover {
     border: 1px solid #777;
-    right: 30px;
 }
 
-div.img1 img {
+div.img img {
     width: 100%;
     height: auto;
-    right:; 30px;
 }
 
-div.desc1 {
+div.desc {
     padding: 15px;
     text-align: center;
-    right: 30px;
 }
