@@ -72,5 +72,7 @@ body {
 
 .photos {
   position: center;
+}
+.img1 {
   max-width: 500px;
 }
