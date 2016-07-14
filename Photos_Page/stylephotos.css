@@ -17,7 +17,7 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-color: hsl(60, 100%, 93%);
+  background-color: #FDFCDC;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -54,7 +54,7 @@ body {
 }
 
 .icon-menu {
-  color: #fff;
+  color: black;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
