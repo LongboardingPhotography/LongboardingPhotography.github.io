@@ -61,7 +61,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding-bottom: 25px;
-  padding-left: 35px;
+  padding-left: 25px;
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
@@ -71,4 +71,7 @@ body {
 .icon-menu i {
   margin-right: 5px;
   position: fixed;
+}
+.icon-menu p {
+  margin-right: 20px;
 }
