@@ -65,8 +65,10 @@ body {
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
+  position: fixed;
 }
 
 .icon-menu i {
   margin-right: 5px;
+  position: fixed;
 }
