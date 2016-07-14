@@ -3,6 +3,7 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-color: #FDFCDC;
 }
 
 /* Initial menu */
@@ -17,7 +18,6 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-color: #FDFCDC;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
