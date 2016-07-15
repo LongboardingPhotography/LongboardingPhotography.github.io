@@ -83,12 +83,12 @@ body {
   color: white;
 }
 .g-plusone {
-  position: absolute;
+  position: fixed;
   right: 10px;
   bottom: 10px;
 }
 .fb-like {
-  position: absolute;
+  position: fixed;
   left: 10px;
   bottom: 10px;
 }
